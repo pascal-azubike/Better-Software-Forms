@@ -25,43 +25,7 @@ Hi! This is my solution for the Better Software internship assignment. I've buil
 - Full accessibility support
 - Social login options
 
-## Project Structure
 
-Everything's organized like this:
-
-```
-├── src/
-│   ├── assets/
-│   │   └── icons/              # Logos and icons
-│   │       ├── better-software-logo.svg
-│   │       ├── facebook.svg
-│   │       ├── google.svg
-│   │       └── favicon.svg
-│   ├── components/             # React components
-│   │   ├── LoginForm.tsx      # Main login form
-│   │   ├── SignupForm.tsx     # Registration form
-│   │   ├── PasswordInput.tsx  # Custom password input
-│   │   └── Toast.tsx          # Notification component
-│   ├── styles/                # All our styles
-│   │   ├── App.css
-│   │   ├── Layout.css
-│   │   ├── Form.css
-│   │   ├── PasswordInput.css
-│   │   └── Toast.css
-│   ├── App.tsx                # Main app component
-│   ├── main.tsx
-│   └── vite-env.d.ts
-│
-├── index.html                 # Entry HTML
-├── package.json
-├── package-lock.json
-├── tsconfig.json             # TypeScript config
-├── tsconfig.node.json
-├── vite.config.ts            # Vite config
-├── .gitignore
-├── .eslintrc.cjs             # Linting rules
-└── README.md
-```
 
 ## Tools I Used
 
