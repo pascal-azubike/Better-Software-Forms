@@ -1,0 +1,67 @@
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+.required {
+  color: #ff4444;
+  margin-left: 4px;
+}
+
+/* Input styles */
+input:not([type="checkbox"]) {
+  padding: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease;
+  color: #2c3e50;
+  background-color: #fff !important;
+}
+
+input:not([type="checkbox"]):focus {
+  outline: none;
+  border-color: #646cff;
+  background-color: #fafafa;
+}
+
+/* Error styles */
+.error {
+  color: #ff4444;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Button styles */
+button[type="submit"] {
+  padding: 0.8rem;
+  background: #646cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #535bf2;
+}
+
+button[type="submit"]:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+} 

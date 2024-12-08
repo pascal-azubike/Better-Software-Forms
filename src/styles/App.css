@@ -1,0 +1,48 @@
+/* Clean slate - reset browser defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Light theme colors */
+:root {
+  color-scheme: light;
+  background-color: #e8edf5;
+  color: #2c3e50;
+}
+
+/* Full-page gradient background */
+.page-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #e8edf5 0%, #d1dbed 100%);
+}
+
+/* Main form card */
+.form-container {
+  width: 100%;
+  max-width: 480px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem 2rem;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Mobile adjustments */
+@media (max-width: 520px) {
+  .page-container {
+    padding: 1rem;
+  }
+}
