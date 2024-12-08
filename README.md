@@ -2,6 +2,12 @@
 
 Hi! This is my solution for the Better Software internship assignment. I've built an authentication system that focuses on clean code and great user experience. Using React and TypeScript, I've created form handling that's both user-friendly and developer-friendly, with special attention to validation, accessibility, and modern design practices.
 
+## Live Demo
+
+[Check out the live demo](https://better-software-forms.vercel.app/)
+
+![Better Software Forms Preview](./src/assets/images/better-software-form-preview.png)
+
 ## What's In Here?
 
 **Core Features**
@@ -76,7 +82,7 @@ Getting started is easy:
 
 ```bash
 # Clone it
-git clone https://github.com/pascal-azubike/Better-Software-Forms.git
+git clone https://github.com/pascal-azubike/better-software-forms.git
 cd better-software-forms
 
 # Install stuff
